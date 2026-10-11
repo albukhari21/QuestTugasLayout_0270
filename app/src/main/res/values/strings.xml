@@ -5,3 +5,6 @@
 <string name="header_title">Teknologi Informasi</string>
 <string name="header_subtitle">Universitas Muhammadiyah Yogyakarta</string>
 <string name="footer_copyright">Copyright, 2026</string>
+
+    <!-- Logo Description -->
+    <string name="logo_description">Logo UMY</string>
