@@ -88,8 +88,13 @@ fun MemberCard(
                 )
 
 
-                        // Logo Kanan
-                        Image(
-                        painter = painterResource(id = R.drawable.logo_umy),
-                contentDescription = stringResource(R.string.logo_description),
-                modifier = Modifier.size(48.dp)
+                // Logo Kanan
+                Image(
+                    painter = painterResource(id = R.drawable.logo_umy),
+                    contentDescription = stringResource(R.string.logo_description),
+                    modifier = Modifier.size(48.dp)
+                )
+            }
+        }
+    }
+}
