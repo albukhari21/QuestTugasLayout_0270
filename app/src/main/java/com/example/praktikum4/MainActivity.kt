@@ -111,3 +111,12 @@ fun MainScreen() {
                     alamat = stringResource(R.string.member_3_address),
                     warnaBackground = BlueCard
                 )
+
+                // Card 4: Ashley Graham
+                MemberCard(
+                    nama = stringResource(R.string.member_4_name),
+                    nomorTelepon = stringResource(R.string.member_4_phone),
+                    alamat = stringResource(R.string.member_4_address),
+                    warnaBackground = GreenCard
+                )
+            }
