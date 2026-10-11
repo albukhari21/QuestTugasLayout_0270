@@ -39,3 +39,57 @@ fun MemberCard(
         shape = RoundedCornerShape(16.dp),
         colors = CardDefaults.cardColors(containerColor = warnaBackground),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            // Logo Kiri
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_description),
+                modifier = Modifier.size(48.dp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        // Logo Kanan
+                        Image(
+                        painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_description),
+                modifier = Modifier.size(48.dp)
