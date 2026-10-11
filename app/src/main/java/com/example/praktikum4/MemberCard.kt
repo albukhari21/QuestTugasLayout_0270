@@ -33,3 +33,9 @@ fun MemberCard(
     modifier: Modifier = Modifier,
     nomorTelepon: String? = null,
     fontFamily: FontFamily? = null
+) {
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = warnaBackground),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
