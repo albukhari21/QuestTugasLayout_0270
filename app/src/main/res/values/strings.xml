@@ -12,3 +12,8 @@
     <!-- Member 1 -->
     <string name="member_1_name">Reza Ricardo</string>
     <string name="member_1_address">Dukuh Zamrud, Mustika Jaya</string>
+
+    <!-- Member 2 -->
+    <string name="member_2_name">Albert Wesker</string>
+    <string name="member_2_phone">085436874190</string>
+    <string name="member_2_address">Kasihan, Bantul</string>
