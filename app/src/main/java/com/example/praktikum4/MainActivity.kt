@@ -80,3 +80,18 @@ fun MainScreen() {
                     textAlign = TextAlign.Center
                 )
             }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Card List Section
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                // Card 1: Reza Ricardo (no phone)
+                MemberCard(
+                    nama = stringResource(R.string.member_1_name),
+                    alamat = stringResource(R.string.member_1_address),
+                    warnaBackground = DarkGrayCard,
+                    nomorTelepon = null
+                )
