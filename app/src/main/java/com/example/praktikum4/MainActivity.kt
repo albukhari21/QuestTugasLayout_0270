@@ -120,3 +120,19 @@ fun MainScreen() {
                     warnaBackground = GreenCard
                 )
             }
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            // Footer Section
+            Text(
+                text = stringResource(R.string.footer_copyright),
+                fontSize = 12.sp,
+                color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.5f),
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 12.dp)
+            )
+        }
+    }
+}
