@@ -22,3 +22,9 @@
     <string name="member_3_name">Ada Wong</string>
     <string name="member_3_phone">085436874190</string>
     <string name="member_3_address">Depok, Sleman</string>
+
+    <!-- Member 4 -->
+    <string name="member_4_name">Ashley Graham</string>
+    <string name="member_4_phone">085436874190</string>
+    <string name="member_4_address">Gamping, Sleman</string>
+</resources>
