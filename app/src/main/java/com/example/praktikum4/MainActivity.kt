@@ -136,3 +136,11 @@ fun MainScreen() {
         }
     }
 }
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun MainScreenPreview() {
+    Praktikum4Theme {
+        MainScreen()
+    }
+}
