@@ -56,37 +56,36 @@ fun MemberCard(
 
             // Informasi Tengah (Nama, No HP opsional, Alamat)
             Column(
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp),
+                horizontalAlignment = Alignment.Start,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = nama,
+                    color = TextWhite,
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = fontFamily
+                )
+                if (!nomorTelepon.isNullOrEmpty()) {
+                    Text(
+                        text = nomorTelepon,
+                        color = TextYellowLight,
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Medium,
+                        fontFamily = fontFamily,
+                        modifier = Modifier.padding(top = 2.dp)
+                    )
+                }
+                Text(
+                    text = alamat,
+                    color = TextSecondary,
+                    fontSize = 14.sp,
+                    fontFamily = fontFamily,
+                    modifier = Modifier.padding(top = 2.dp)
+                )
 
 
                         // Logo Kanan
