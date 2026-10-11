@@ -103,3 +103,11 @@ fun MainScreen() {
                     alamat = stringResource(R.string.member_2_address),
                     warnaBackground = PurpleCard
                 )
+
+                // Card 3: Ada Wong
+                MemberCard(
+                    nama = stringResource(R.string.member_3_name),
+                    nomorTelepon = stringResource(R.string.member_3_phone),
+                    alamat = stringResource(R.string.member_3_address),
+                    warnaBackground = BlueCard
+                )
