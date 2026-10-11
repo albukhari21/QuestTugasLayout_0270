@@ -52,9 +52,10 @@ fun MemberCard(
                 painter = painterResource(id = R.drawable.logo_umy),
                 contentDescription = stringResource(R.string.logo_description),
                 modifier = Modifier.size(48.dp)
+            )
 
-
-
+            // Informasi Tengah (Nama, No HP opsional, Alamat)
+            Column(
 
 
 
