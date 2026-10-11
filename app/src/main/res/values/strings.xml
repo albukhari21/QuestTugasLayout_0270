@@ -8,3 +8,7 @@
 
     <!-- Logo Description -->
     <string name="logo_description">Logo UMY</string>
+
+    <!-- Member 1 -->
+    <string name="member_1_name">Reza Ricardo</string>
+    <string name="member_1_address">Dukuh Zamrud, Mustika Jaya</string>
