@@ -16,3 +16,9 @@ val DarkGrayCard = Color(0xFF2C2C2C)
 val PurpleCard = Color(0xFF5E2A84)
 val BlueCard = Color(0xFF1976D2)
 val GreenCard = Color(0xFF2E7D32)
+
+// Text Colors
+val TextWhite = Color(0xFFFFFFFF)
+val TextYellowLight = Color(0xFFFFEB3B)
+val TextGreenBright = Color(0xFFB2FF59)
+val TextSecondary = Color(0xFFE0E0E0)
